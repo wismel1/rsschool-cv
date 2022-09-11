@@ -1,16 +1,27 @@
-# RS School&-резюме
----
 ## Alex Wismel
-## Contacts
-* email: alexwismel@gmail.com
-* GitHub: wismel1
+![photo](nanoAvatar.jpg)
+
 ---
-### Кратко о себе:
+### Contacts
+    * email: alexwismel@gmail.com
+    * GitHub: wismel1
+
+
+### About me
 I like coming up with new concepts.
----
+
+
+### Skills
+    * Git
+    * C++
+
+
 ### Code example
 The C++ code. The function to compare two strings in alphabetical order returns a boolean true if the first argument is greater than the second:
 
+---
+
+```
 bool compare_b_less_a(std::string a, std::string b)
 {
 	int m = (a.length() < b.length()) ? a.length() : b.length();
@@ -18,11 +29,17 @@ bool compare_b_less_a(std::string a, std::string b)
 		if (a[k] != b[k])
 			return (a[k] > b[k]);
 	
-	return a.length() > b.length();//	
+	return a.length() > b.length();
 }
+```
 ---
 ### Education:
-* secondary education
----
+    * secondary education
+
+
 ### Courses:
-* ravesli
+    * ravesli
+
+
+### Languages:
+    * English A2 level
